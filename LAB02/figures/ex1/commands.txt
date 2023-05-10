@@ -1,0 +1,11 @@
+1.Get-WmiObject -Class Cim_NetworkAdapter | Select-Object Name
+2.Get-NetAdapter -Name *
+3.getmac
+4.Get-WmiObject -Class Win32_NetworkAdapter -Filter "NetConnectionID='Ethernet 3'" | Select-Object Name, Manufacturer
+5.Get-NetAdapterBinding -Name "Ethernet 3" | Select-Object DisplayName, ComponentID
+6.Get-NetAdapter -Name "Ethernet 3" | Select-Object IQR
+7.Get-NetAdapter -Name "Ethernet 3" | Select-Object DriverFileName, DriverVersion
+8.Get-NetAdapter -Name "Ethernet 3" | Select-Object DeviceID, PNPDeviceID
+
+
+**Note change Ethernet 3 with your adapter Name**

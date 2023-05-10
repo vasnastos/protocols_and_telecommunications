@@ -1,0 +1,1 @@
+This will only work if the MAC addresses are available in the captured packets. If the packets have been captured on a network with switches, you may only see the MAC address of the switch port that the packets are received from or sent to.
