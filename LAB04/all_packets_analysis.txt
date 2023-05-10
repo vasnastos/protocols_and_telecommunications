@@ -1,0 +1,1241 @@
+No.     Time           Source                Destination           Protocol Length Info
+    417 2.445615       128.119.245.12        195.130.74.155        TCP      66     80 → 64158 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM WS=128
+
+Frame 417: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0xc922 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 0, Ack: 1, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 1732107143
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 675114308
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x012 (SYN, ACK)
+    Window: 29200
+    [Calculated window size: 29200]
+    Checksum: 0xa619 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), No-Operation (NOP), SACK permitted, No-Operation (NOP), Window scale
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.141112000 seconds]
+        [Time since previous frame in this TCP stream: 0.141112000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 384]
+        [The RTT to ACK the segment was: 0.141112000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    418 2.445681       195.130.74.155        128.119.245.12        TCP      54     64158 → 80 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 418: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 18:c0:4d:0c:84:44, Dst: 00:18:19:e9:63:40
+Internet Protocol Version 4, Src: 195.130.74.155, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xe13d (57661)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 195.130.74.155
+    Destination Address: 128.119.245.12
+Transmission Control Protocol, Src Port: 64158, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+    Source Port: 64158
+    Destination Port: 80
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 675114308
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1732107144
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x83bc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.141178000 seconds]
+        [Time since previous frame in this TCP stream: 0.000066000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 417]
+        [The RTT to ACK the segment was: 0.000066000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    630 3.481030       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=14601 Win=58496 Len=0
+
+Frame 630: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaeef (44783)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a3f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 14601, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 14601    (relative ack number)
+    Acknowledgment number (raw): 675128908
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 457
+    [Calculated window size: 58496]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e2b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.176527000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 596]
+        [The RTT to ACK the segment was: 0.143190000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    644 3.621466       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=17521 Win=64256 Len=0
+
+Frame 644: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaef1 (44785)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a3d [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 17521, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 17521    (relative ack number)
+    Acknowledgment number (raw): 675131828
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 502
+    [Calculated window size: 64256]
+    [Window size scaling factor: 128]
+    Checksum: 0x1296 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.316963000 seconds]
+        [Time since previous frame in this TCP stream: 0.000606000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 618]
+        [The RTT to ACK the segment was: 0.142024000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    649 3.621789       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=23361 Win=76032 Len=0
+
+Frame 649: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaef5 (44789)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a39 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 23361, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 23361    (relative ack number)
+    Acknowledgment number (raw): 675137668
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 594
+    [Calculated window size: 76032]
+    [Window size scaling factor: 128]
+    Checksum: 0xfb69 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.317286000 seconds]
+        [Time since previous frame in this TCP stream: 0.000307000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 621]
+        [The RTT to ACK the segment was: 0.142050000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    657 3.622452       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=32121 Win=93440 Len=0
+
+Frame 657: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaefb (44795)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a33 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 32121, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 32121    (relative ack number)
+    Acknowledgment number (raw): 675146428
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 730
+    [Calculated window size: 93440]
+    [Window size scaling factor: 128]
+    Checksum: 0xd8a9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.317949000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 625]
+        [The RTT to ACK the segment was: 0.142386000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    663 3.623184       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=37961 Win=105216 Len=0
+
+Frame 663: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaeff (44799)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a2f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 37961, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 37961    (relative ack number)
+    Acknowledgment number (raw): 675152268
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 822
+    [Calculated window size: 105216]
+    [Window size scaling factor: 128]
+    Checksum: 0xc17d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.318681000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 628]
+        [The RTT to ACK the segment was: 0.142794000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    668 3.623572       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=43801 Win=116864 Len=0
+
+Frame 668: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf03 (44803)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a2b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 43801, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 43801    (relative ack number)
+    Acknowledgment number (raw): 675158108
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 913
+    [Calculated window size: 116864]
+    [Window size scaling factor: 128]
+    Checksum: 0xaa52 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.319069000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 631]
+        [The RTT to ACK the segment was: 0.142530000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    691 3.762766       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=46721 Win=122752 Len=0
+
+Frame 691: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf05 (44805)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a29 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 46721, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 46721    (relative ack number)
+    Acknowledgment number (raw): 675161028
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 959
+    [Calculated window size: 122752]
+    [Window size scaling factor: 128]
+    Checksum: 0x9ebc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.458263000 seconds]
+        [Time since previous frame in this TCP stream: 0.000266000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 643]
+        [The RTT to ACK the segment was: 0.141906000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    704 3.764074       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=58401 Win=146048 Len=0
+
+Frame 704: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf0d (44813)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a21 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 58401, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 58401    (relative ack number)
+    Acknowledgment number (raw): 675172708
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1141
+    [Calculated window size: 146048]
+    [Window size scaling factor: 128]
+    Checksum: 0x7066 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.459571000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 648]
+        [The RTT to ACK the segment was: 0.142592000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    706 3.764074       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=61321 Win=151936 Len=0
+
+Frame 706: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf0f (44815)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a1f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 61321, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 61321    (relative ack number)
+    Acknowledgment number (raw): 675175628
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1187
+    [Calculated window size: 151936]
+    [Window size scaling factor: 128]
+    Checksum: 0x64d0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.459571000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 650]
+        [The RTT to ACK the segment was: 0.142276000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    711 3.765042       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=64241 Win=157696 Len=0
+
+Frame 711: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf11 (44817)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a1d [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 64241, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 64241    (relative ack number)
+    Acknowledgment number (raw): 675178548
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1232
+    [Calculated window size: 157696]
+    [Window size scaling factor: 128]
+    Checksum: 0x593b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.460539000 seconds]
+        [Time since previous frame in this TCP stream: 0.000640000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 652]
+        [The RTT to ACK the segment was: 0.142921000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    723 3.765685       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=78841 Win=183296 Len=0
+
+Frame 723: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf1b (44827)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a13 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 78841, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 78841    (relative ack number)
+    Acknowledgment number (raw): 675193148
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0x1f6b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.461182000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 658]
+        [The RTT to ACK the segment was: 0.143223000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    725 3.766012       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=81761 Win=183296 Len=0
+
+Frame 725: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf1d (44829)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a11 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 81761, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 81761    (relative ack number)
+    Acknowledgment number (raw): 675196068
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0x1403 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.461509000 seconds]
+        [Time since previous frame in this TCP stream: 0.000327000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 660]
+        [The RTT to ACK the segment was: 0.143150000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    738 3.806932       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=102201 Win=183296 Len=0
+
+Frame 738: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf28 (44840)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a06 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 102201, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 102201    (relative ack number)
+    Acknowledgment number (raw): 675216508
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0xc42a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.502429000 seconds]
+        [Time since previous frame in this TCP stream: 0.039296000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 669]
+        [The RTT to ACK the segment was: 0.183324000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    748 3.904106       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=105121 Win=183296 Len=0
+
+Frame 748: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf29 (44841)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a05 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 105121, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 105121    (relative ack number)
+    Acknowledgment number (raw): 675219428
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0xb8c2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.599603000 seconds]
+        [Time since previous frame in this TCP stream: 0.097174000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 690]
+        [The RTT to ACK the segment was: 0.141606000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    750 3.904425       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=108041 Win=183296 Len=0
+
+Frame 750: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf2a (44842)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a04 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 108041, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 108041    (relative ack number)
+    Acknowledgment number (raw): 675222348
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0xad5a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.599922000 seconds]
+        [Time since previous frame in this TCP stream: 0.000319000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 692]
+        [The RTT to ACK the segment was: 0.141641000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    751 3.904892       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=110961 Win=183296 Len=0
+
+Frame 751: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf2b (44843)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a03 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 110961, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 110961    (relative ack number)
+    Acknowledgment number (raw): 675225268
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0xa1f2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.600389000 seconds]
+        [Time since previous frame in this TCP stream: 0.000467000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 695]
+        [The RTT to ACK the segment was: 0.141789000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    754 3.905858       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=119721 Win=183296 Len=0
+
+Frame 754: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf2e (44846)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x1a00 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 119721, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 119721    (relative ack number)
+    Acknowledgment number (raw): 675234028
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0x7fba [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.601355000 seconds]
+        [Time since previous frame in this TCP stream: 0.000324000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 699]
+        [The RTT to ACK the segment was: 0.142435000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    756 3.906185       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=125561 Win=183296 Len=0
+
+Frame 756: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf30 (44848)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x19fe [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 125561, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 125561    (relative ack number)
+    Acknowledgment number (raw): 675239868
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0x68ea [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.601682000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 702]
+        [The RTT to ACK the segment was: 0.142438000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    760 3.907051       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=137241 Win=183296 Len=0
+
+Frame 760: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf34 (44852)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x19fa [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 137241, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 137241    (relative ack number)
+    Acknowledgment number (raw): 675251548
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0x3b4a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.602548000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 707]
+        [The RTT to ACK the segment was: 0.142960000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    761 3.907375       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=140161 Win=183296 Len=0
+
+Frame 761: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf35 (44853)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x19f9 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 140161, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 140161    (relative ack number)
+    Acknowledgment number (raw): 675254468
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0x2fe2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.602872000 seconds]
+        [Time since previous frame in this TCP stream: 0.000324000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 709]
+        [The RTT to ACK the segment was: 0.142973000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    763 3.907699       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=146001 Win=183296 Len=0
+
+Frame 763: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf37 (44855)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x19f7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 146001, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 146001    (relative ack number)
+    Acknowledgment number (raw): 675260308
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1432
+    [Calculated window size: 183296]
+    [Window size scaling factor: 128]
+    Checksum: 0x1912 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.603196000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 713]
+        [The RTT to ACK the segment was: 0.142644000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    767 3.908710       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=1 Ack=152974 Win=192000 Len=0
+
+Frame 767: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf3b (44859)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x19f3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 1, Ack: 152974, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1732107144
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 152974    (relative ack number)
+    Acknowledgment number (raw): 675267281
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1500
+    [Calculated window size: 192000]
+    [Window size scaling factor: 128]
+    Checksum: 0xfd90 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.604207000 seconds]
+        [Time since previous frame in this TCP stream: 0.000323000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 720]
+        [The RTT to ACK the segment was: 0.143330000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    771 3.950811       195.130.74.155        128.119.245.12        TCP      54     64158 → 80 [ACK] Seq=152974 Ack=778 Win=130560 Len=0
+
+Frame 771: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 18:c0:4d:0c:84:44, Dst: 00:18:19:e9:63:40
+Internet Protocol Version 4, Src: 195.130.74.155, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xe1a7 (57767)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 195.130.74.155
+    Destination Address: 128.119.245.12
+Transmission Control Protocol, Src Port: 64158, Dst Port: 80, Seq: 152974, Ack: 778, Len: 0
+    Source Port: 64158
+    Destination Port: 80
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 152974    (relative sequence number)
+    Sequence Number (raw): 675267281
+    [Next Sequence Number: 152974    (relative sequence number)]
+    Acknowledgment Number: 778    (relative ack number)
+    Acknowledgment number (raw): 1732107921
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 510
+    [Calculated window size: 130560]
+    [Window size scaling factor: 256]
+    Checksum: 0x83bc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.646308000 seconds]
+        [Time since previous frame in this TCP stream: 0.041775000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 768]
+        [The RTT to ACK the segment was: 0.041775000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1525 8.911022       195.130.74.155        128.119.245.12        TCP      54     64158 → 80 [ACK] Seq=152974 Ack=779 Win=130560 Len=0
+
+Frame 1525: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 18:c0:4d:0c:84:44, Dst: 00:18:19:e9:63:40
+Internet Protocol Version 4, Src: 195.130.74.155, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xe1a8 (57768)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 195.130.74.155
+    Destination Address: 128.119.245.12
+Transmission Control Protocol, Src Port: 64158, Dst Port: 80, Seq: 152974, Ack: 779, Len: 0
+    Source Port: 64158
+    Destination Port: 80
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 152974    (relative sequence number)
+    Sequence Number (raw): 675267281
+    [Next Sequence Number: 152974    (relative sequence number)]
+    Acknowledgment Number: 779    (relative ack number)
+    Acknowledgment number (raw): 1732107922
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 510
+    [Calculated window size: 130560]
+    [Window size scaling factor: 256]
+    Checksum: 0x83bc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 6.606519000 seconds]
+        [Time since previous frame in this TCP stream: 0.000091000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1524]
+        [The RTT to ACK the segment was: 0.000091000 seconds]
+        [iRTT: 0.141178000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1539 9.057098       128.119.245.12        195.130.74.155        TCP      60     80 → 64158 [ACK] Seq=779 Ack=152975 Win=192000 Len=0
+
+Frame 1539: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{71567641-C7D7-458E-A020-12F809DCD98D}, id 0
+Ethernet II, Src: 00:18:19:e9:63:40, Dst: 18:c0:4d:0c:84:44
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 195.130.74.155
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xaf3e (44862)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 46
+    Protocol: TCP (6)
+    Header Checksum: 0x19f0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 195.130.74.155
+Transmission Control Protocol, Src Port: 80, Dst Port: 64158, Seq: 779, Ack: 152975, Len: 0
+    Source Port: 80
+    Destination Port: 64158
+    [Stream index: 19]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 779    (relative sequence number)
+    Sequence Number (raw): 1732107922
+    [Next Sequence Number: 779    (relative sequence number)]
+    Acknowledgment Number: 152975    (relative ack number)
+    Acknowledgment number (raw): 675267282
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 1500
+    [Calculated window size: 192000]
+    [Window size scaling factor: 128]
+    Checksum: 0xfa85 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 6.752595000 seconds]
+        [Time since previous frame in this TCP stream: 0.145977000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1526]
+        [The RTT to ACK the segment was: 0.145977000 seconds]
+        [iRTT: 0.141178000 seconds]

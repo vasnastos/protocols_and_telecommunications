@@ -1,0 +1,85 @@
+Created by Wireshark 4.0.4 (v4.0.4-0-gea14d468d9ca)
+
+File
+
+Name:
+C:\Users\VASILE~1\AppData\Local\Temp\wireshark_Ethernet 3YR5T41.pcapng
+Length:
+1104 kB
+Hash (SHA256):
+cae11919d354a7b3472ea38a79933db56db6ea3fc83e5a56bbd288bb2e4a83a0
+Hash (RIPEMD160):
+6fe451d8ebbc1918c746f29f4a0ed596d98a6cbc
+Hash (SHA1):
+2fc3946f2f3e8f5984040aff0aba4c5b83185e6c
+Format:
+Wireshark/... - pcapng
+Encapsulation:
+Ethernet
+
+Time
+
+First packet:
+2023-05-02 10:04:48
+Last packet:
+2023-05-02 10:05:13
+Elapsed:
+00:00:24
+
+Capture
+
+Hardware:
+AMD Ryzen 7 5700G with Radeon Graphics (with SSE4.2)
+OS:
+64-bit Windows (22H2), build 22621
+Application:
+Dumpcap (Wireshark) 4.0.4 (v4.0.4-0-gea14d468d9ca)
+
+Interfaces
+
+Interface
+Dropped packets
+Capture filter
+Link type
+Packet size limit (snaplen)
+Ethernet 3
+0 (0.0%)
+none
+Ethernet
+262144 bytes
+
+Statistics
+
+Measurement
+Captured
+Displayed
+Marked
+Packets
+4075
+118 (2.9%)
+—
+Time span, s
+24.154
+6.753
+—
+Average pps
+168.7
+17.5
+—
+Average packet size, B
+238
+1362
+—
+Bytes
+969712
+160674 (16.6%)
+0
+Average bytes/s
+40 k
+23 k
+—
+Average bits/s
+321 k
+190 k
+—
+
