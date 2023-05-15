@@ -47,7 +47,7 @@
               <div class="formbg">
                 <div class="formbg-inner padding-horizontal--48">
                   <span class="padding-bottom--15">Ανέβασμα αρχείου για εργασία εξαμήνου</span>
-                  <form id="stripe-login" action="upload.php">
+                  <form id="stripe-login" action="upload.php" method="post" enctype="multipart/form-data">
                     <div class="field padding-bottom--24">
                       <label for="email">ΟΝΟΜΑ</label>
                       <input type="text" name="email">
@@ -69,7 +69,7 @@
 
                     <div class="field padding-bottom--24">
                         <label for="password">ΑΡΧΕΙΟ</label>
-                        <input type="file" id="file_selector"/>
+                        <input type="file" id="file_selector" name="file_selector"/>
                     </div>
 
                     <div class="field padding-bottom--24">
